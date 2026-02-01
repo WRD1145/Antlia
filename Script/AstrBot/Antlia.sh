@@ -310,7 +310,7 @@ check_pip_package() {
 
 install_system_dependencies() {
 	print_title "安装系统依赖"
-	local packages=("git" "python3" "tmux" "tar" "findutils" "gzip")
+	local packages=("git" "python3.12" "tmux" "tar" "findutils" "gzip")
 
 	# 检查下载工具
 	! command_exists curl && packages+=("curl")
