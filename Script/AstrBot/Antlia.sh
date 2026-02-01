@@ -2,6 +2,12 @@
 # AstrBot Shell部署脚本
 # 版本: 2025/11/09
 
+# 强制使用 Python 3.12
+export UV_PYTHON="3.12"
+
+# AstrBot Shell部署脚本
+# 版本: 2025/11/09
+
 set -euo pipefail
 
 DEPLOY_DIR=""
